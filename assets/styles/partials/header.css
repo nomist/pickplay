@@ -1,0 +1,62 @@
+.header {
+  background-color: #ffffff;
+  display: block;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.18);
+  z-index: 6;
+}
+
+.header__wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.header__logo {
+  font-family: iconfont;
+  line-height: 50px;
+  display: inline-block;
+  text-decoration: none;
+  color: #363636;
+}
+
+.header__logo-icon {
+  vertical-align: middle;
+  font-size: 26px;
+  font-style: normal;
+  &:before {
+    content: "";
+    display: inline-block;
+  }
+}
+
+.header__logo-name {
+  vertical-align: middle;
+  font-size: 12px;
+  font-style: normal;
+  &:before {
+    content: "";
+    display: inline-block;
+  }
+}
+
+.header__button {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  float: right;
+  line-height: 50px;
+  text-decoration: none;
+  color: #363636;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__logo-name {
+    display: none;
+  }
+}

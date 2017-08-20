@@ -1,0 +1,99 @@
+.info {
+  position: relative;
+  background-image: url(./images/info.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 512px;
+  overflow: hidden;
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.32);
+  z-index: 5;
+}
+
+.info__wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 20px;
+  height: 100%;
+}
+
+.info__smartphone {
+  align-self: flex-end;
+  margin: 0px 20px -208px;
+}
+
+.info__smartphone-image {
+  width: 292px;
+  height: auto;
+}
+
+.info__about {
+  width: 380px;
+  font-family: Roboto;
+}
+
+.info__about-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info__about-description {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 20px;
+  letter-spacing: 0.1;
+  margin-bottom: 24px;
+}
+
+.info__button {
+  font-family: Roboto;
+  text-transform: uppercase;
+  color: #363636;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 36px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  display: inline-flex;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.18);
+  &:before {
+    content: "";
+    display: inline-block;
+    font-family: iconfont;
+    font-size: 22px;
+    margin-right: 18px;
+  }
+  &:hover {
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.32);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .info {
+    height: auto;
+  }
+  .info__wrapper {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+  .info__smartphone {
+    align-self: auto;
+    margin: 0 20px -308px;
+  }
+  .info__about {
+    width: auto;
+    margin: 100px 0px 60px;
+    text-align: center;
+  }
+}

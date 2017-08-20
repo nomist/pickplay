@@ -1,0 +1,7 @@
+@import "normalize-css/normalize";
+@import "settings/fonts";
+@import "settings/defaults";
+@import "partials/header";
+@import "partials/info";
+@import "partials/advantages";
+@import "partials/content";
