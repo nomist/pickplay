@@ -1,1 +1,1 @@
-//=require partials/index.js
+//=require partials/popup.js

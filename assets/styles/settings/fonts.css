@@ -5,29 +5,35 @@
 }
 
 @font-face {
+  font-family: 'interface';
+  font-path: 'fonts/interface/interface';
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Roboto';
-  font-path: 'fonts/roboto/Roboto-Regular-webfont';
+  font-path: 'fonts/roboto_regular/Roboto-Regular-webfont';
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  font-path: 'fonts/roboto/Roboto-Medium-webfont';
-  font-weight: normal;
+  font-path: 'fonts/roboto_medium/Roboto-Medium-webfont';
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  font-path: 'fonts/roboto/Roboto-Bold-webfont';
+  font-path: 'fonts/roboto_bold/Roboto-Bold-webfont';
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  font-path: 'fonts/roboto/Roboto-Black-webfont';
+  font-path: 'fonts/roboto_black/Roboto-Black-webfont';
   font-weight: 900;
   font-style: normal;
 }

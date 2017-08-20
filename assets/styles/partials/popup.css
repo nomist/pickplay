@@ -1,0 +1,47 @@
+.popup {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 100;
+  overflow: auto;
+}
+
+.popup__wrapper {
+  padding: 0 20px;
+  max-width: 860px;
+  margin: 20px auto 120px;
+  font-family: Roboto;
+  line-height: 24px;
+  color: #363636;
+}
+
+.popup__wrapper p {
+  font-weight: 300;
+}
+
+.popup__close {
+  cursor: pointer;
+  color: #363636;
+  opacity: 0.5;
+  width: 100%;
+  text-align: right;
+  font-family: interface;
+  margin-bottom: 40px;
+  &:before {
+    content: '';
+    display: block;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.popup__main-title {
+  margin-bottom: 60px;
+}
+
+.popup__title-big {
+  margin-top: 40px;
+}
