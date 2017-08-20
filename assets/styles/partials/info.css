@@ -1,4 +1,5 @@
 .info {
+  min-width: 280px;
   position: relative;
   background-image: url(./images/info.png);
   width: 100%;

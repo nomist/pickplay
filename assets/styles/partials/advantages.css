@@ -1,4 +1,5 @@
 .advantages {
+  min-width: 280px;
   width: 100%;
   border-bottom: 1px solid #E5E5E5;
 }
@@ -11,6 +12,7 @@
 }
 
 .advantages__item {
+  padding: 0 20px;
   width: 33%;
   border-left: 1px solid #E5E5E5;
   &:last-child {
@@ -25,12 +27,13 @@
 }
 
 .advantages__item-description {
+  max-width: 255px;
+  margin: 0 auto 30px;
   font-family: Roboto;
   font-size: 14px;
   line-height: 16px;
   color: #4C4C4C;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .advantages__icon {
@@ -68,7 +71,7 @@
     width: auto;
   }
   .advantages__item-description {
-    margin: 0px 20px 30px;
+    margin: 0px auto 30px;
   }
 }
 
